@@ -88,7 +88,7 @@ header {
 }
 
 .home-img img {
-    max-width: 100%;
+    max-width: 85%;
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
@@ -349,4 +349,79 @@ header {
     background: #e64a19;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     transform: translateY(1px);
+}
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .home {
+        flex-direction: column;
+        text-align: center;
+        padding: 3rem 1rem;
+    }
+
+    .home-text {
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-img img {
+        margin-bottom: 2rem;
+    }
+
+    .projects-content,
+    .skills-content,
+    .files-content,
+    .cv-content {
+        flex-direction: column;
+    }
+
+    .box {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-text h1 {
+        font-size: 2rem;
+    }
+
+    .home-text h2 {
+        font-size: 1.2rem;
+    }
+
+    .home-text p {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+
+    .contact-icons a {
+        font-size: 1.2rem;
+    }
 }
