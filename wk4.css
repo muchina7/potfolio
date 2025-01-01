@@ -88,8 +88,8 @@ header {
 }
 
 .home-img img {
-    max-width: 85%;
-    border-radius: 50%;
+    max-width: 95%;
+    border-radius: 60%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
