@@ -58,9 +58,10 @@ header {
 
 /* Home Section */
 .home {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    text-align: center;
     padding: 5rem 2rem;
     background: url('th_2.jpg') no-repeat center center/cover;
     color: #fff;
@@ -70,15 +71,16 @@ header {
 
 .home-text {
     max-width: 50%;
+    
 }
 
 .home-text h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     margin-bottom: 1rem;
 }
 
-.home-text h2 {
-    font-size: 2rem;
+.home-text h3{
+    font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 
@@ -88,8 +90,8 @@ header {
 }
 
 .home-img img {
-    max-width: 95%;
-    border-radius: 60%;
+    max-width: 90%;
+    border-radius: 50%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
@@ -98,10 +100,12 @@ header {
     display: flex;
     align-items: center;
     padding: 4rem 2rem;
+    text-align: center;
+    background-color:gainsboro;
 }
 
 .about-img img {
-    max-width: 100%;
+    max-width: 50%;
     border-radius: 15px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
@@ -165,7 +169,7 @@ header {
 
 /* Skills Section */
 .skills {
-    background: #f0f4f8;
+    background:gainsboro;
     padding: 4rem 2rem;
 }
 
@@ -186,31 +190,10 @@ header {
     text-align: center;
 }
 
-/* Files Section */
-.files {
-    background: #fff;
-    padding: 4rem 2rem;
-}
-
-.files-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.files-content .box {
-    background: #f9f9f9;
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    flex: 1;
-    max-width: 300px;
-}
 
 /* CV Section */
 .cv {
-    background: #f0f4f8;
+    background: whitesmoke;
     padding: 4rem 2rem;
 }
 
@@ -222,7 +205,7 @@ header {
 }
 
 .cv-content .box {
-    background: #fff;
+    background:white;
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
@@ -233,7 +216,7 @@ header {
 
 /* Contact Section */
 .contact {
-    background: #fff;
+    background: gainsboro;
     padding: 4rem 2rem;
 }
 
